@@ -1,7 +1,6 @@
-//import project1 from "../assets/projects/project-1.jpg";
-//import project2 from "../assets/projects/project-2.jpg";
-//import project3 from "../assets/projects/project-3.jpg";
-//import project4 from "../assets/projects/project-4.jpg";
+import food from "../assets/food.jpg";
+import profile from "../assets/profile.jpg";
+import logo1 from "../assets/logo1.png";
 
 export const HERO_CONTENT = `I am a passionate web developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,33 +39,27 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
-        title: "E-Commerce Website",
-
+        title: "Community Food Redistribution Platform",
+        image: food,
         description:
             "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-        technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+        technologies: ["React.js", "MongoDB", "React Router", "Express.js", "API", "Firebase authentication", "Tailwind CSS", "HTML5"],
     },
     {
-        title: "Task Management App",
-
+        title: "Espresso-Bliss-Bakery",
+        image: logo1,
         description:
-            "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-        technologies: ["HTML", "CSS", "Angular", "Firebase"],
+            "Espresso-Bliss-Bakery, a dynamic coffee and pastry web app, seamlessly integrates my MongoDB and Express.js expertise with Firebase authentication and React Router for a smooth front-end experience. The user's coffee and pastry selections are easy to add and change.",
+        technologies: ["React.js", "MongoDB", "React Router", "Express.js", "API", "Firebase authentication", "Tailwind CSS", "HTML5"],
     },
     {
-        title: "Portfolio Website",
-
+        title: "ProfessionalLink Hub",
+        image: profile,
         description:
-            "A personal portfolio website showcasing projects, skills, and contact information.",
-        technologies: ["HTML", "CSS", "React", "Bootstrap"],
+            "Join the exciting portal to career success—ProfessionalLink Hub. Find jobs and company information,and apply easily in one spot. Application trackers and industry blogs help you arrange your job search.",
+        technologies: ["HTML5", "Tailwind CSS", "React Router", "JavaScript"],
     },
-    {
-        title: "Blogging Platform",
 
-        description:
-            "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-        technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    },
 ];
 
 export const CONTACT = {
